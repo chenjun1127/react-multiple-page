@@ -10,7 +10,7 @@ class Index extends React.Component {
 		super(props);
 		this.state = {
 			date: new Date().toLocaleString()
-		};
+};
 		this.countDown = this.countDown.bind(this);
 	}
 
@@ -37,7 +37,7 @@ class Index extends React.Component {
 				<div>{this.props.name}</div>
 				<div>{this.state.date}</div>
 			</div>
-		);
+	);
 	}
 }
 
