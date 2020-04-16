@@ -1,0 +1,33 @@
+.container {
+  padding: 15px;
+  div {
+    padding: 10px 0;
+  }
+  img {
+    margin: 10px 0;
+  }
+}
+
+.menu {
+  display: flex;
+  background: #f0f0f0;
+  border-bottom: 1px solid #d9d9d9;
+  li {
+    a {
+      display: block;
+      padding: 15px 20px;
+      text-decoration: none;
+      color: #333;
+      &:hover {
+        background: rgb(45, 82, 243);
+        color: #fff;
+      }
+    }
+    &.act {
+      a {
+        background: rgb(45, 82, 243);
+        color: #fff;
+      }
+    }
+  }
+}
